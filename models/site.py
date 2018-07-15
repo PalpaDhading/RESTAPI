@@ -4,7 +4,8 @@ class SiteModel(db.Model):
     __tablename__ = 'sitesdata'
 
     #id = db.Column(db.Integer, primary_key=True)
-    sitename = db.Column(db.String(80), primary_key=True)
+    #sitename = db.Column(db.String(80), primary_key=True)
+    sitename = db.Column(db.String(80))
     street = db.Column(db.String(1000))
     city = db.Column(db.String(100))
     state = db.Column(db.String(50))
